@@ -1,0 +1,15 @@
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/bin/Debug/net7.0/UaiBank
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/bin/Debug/net7.0/UaiBank.deps.json
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/bin/Debug/net7.0/UaiBank.runtimeconfig.json
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/bin/Debug/net7.0/UaiBank.dll
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/bin/Debug/net7.0/UaiBank.pdb
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.csproj.AssemblyReference.cache
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.GeneratedMSBuildEditorConfig.editorconfig
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.AssemblyInfoInputs.cache
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.AssemblyInfo.cs
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.csproj.CoreCompileInputs.cache
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.dll
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/refint/UaiBank.dll
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.pdb
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/UaiBank.genruntimeconfig.cache
+/home/jotacuesta/RiderProjects/UaiBank/UaiBank/obj/Debug/net7.0/ref/UaiBank.dll

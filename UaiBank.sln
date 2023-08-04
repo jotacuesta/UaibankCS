@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UaiBank", "UaiBank\UaiBank.csproj", "{2C0584DE-F627-462F-88AC-C1C3AE0D556E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UaiBank.UnitTests", "UaiBank.UnitTests\UaiBank.UnitTests.csproj", "{A48B9381-B43C-41FC-9D09-1C84628ED0CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C0584DE-F627-462F-88AC-C1C3AE0D556E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0584DE-F627-462F-88AC-C1C3AE0D556E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0584DE-F627-462F-88AC-C1C3AE0D556E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0584DE-F627-462F-88AC-C1C3AE0D556E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48B9381-B43C-41FC-9D09-1C84628ED0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48B9381-B43C-41FC-9D09-1C84628ED0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48B9381-B43C-41FC-9D09-1C84628ED0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48B9381-B43C-41FC-9D09-1C84628ED0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
