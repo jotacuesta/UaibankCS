@@ -1,6 +1,7 @@
 using FluentAssertions;
 using UaiBank.Exceptions;
 using UaiBank.Services;
+using UaiBank.UnitTests.Helpers;
 
 namespace UaiBank.UnitTests.Systems.Bank;
 
@@ -9,17 +10,18 @@ public class AddNewClientUnitTests
     [Test]
     public void AddNewClient_OnCreateNewClientsToBank_GenerateUniqueIds()
     {
-        var bankService = new BankService();
-        bankService.AddNewClient("Client 1", 18, 100.00);
-        bankService.AddNewClient("Client 2", 20, 200.50);
-
-        bankService.AllClients.Count.Should().Be(2);
+        var bankService = BankServiceHelper.GetSharedBankServiceInstance();
+        for (int i = 0; i < 7; i++)
+        {
+            bankService.AddNewClient($"Client {i + 1}", 16 + i, 100.00 );
+        }
+        bankService.AllClients.Count.Should().Be(7);
     }
 
     [Test]
     public void AddNewClient_OnCreateNewClientWithoutName_ThrowsException()
     {
-        var bankService = new BankService();
+        var bankService = BankServiceHelper.GetSharedBankServiceInstance();
         var action = () => bankService.AddNewClient("", 18, 100.00);
         action.Should().Throw<InvalidClientNameException>();
     }
@@ -27,7 +29,7 @@ public class AddNewClientUnitTests
     [Test]
     public void AddNewClient_OnCreateNewClientUnder16Years_ThrowsException()
     {
-        var bankService = new BankService();
+        var bankService = BankServiceHelper.GetSharedBankServiceInstance();
         var action = () => bankService.AddNewClient("Client 1", 12, 100.00);
         action.Should().Throw<InvalidClientAgeException>();
     }
@@ -35,7 +37,7 @@ public class AddNewClientUnitTests
     [Test]
     public void AddNewClient_OnCreateNewClientWithNegativeBalance_ThrowsException()
     {
-        var bankService = new BankService();
+        var bankService = BankServiceHelper.GetSharedBankServiceInstance();
         var action = () => bankService.AddNewClient("Client 1", 17, -100.00);
         action.Should().Throw<InvalidClientBalanceException>();
     }
